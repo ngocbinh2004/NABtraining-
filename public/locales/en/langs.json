@@ -1,0 +1,687 @@
+{
+  "Common": {
+    "GeneralErrMsg": "Something went wrong!"
+  },
+  "PageNotFound": {
+    "end": ".",
+    "content": "We're sorry, but the system seems to be experiencing some issues. Please try again later or contact us for assistance.",
+    "try_again": "Try Again",
+    "back_to_home": "Back to Home",
+    "contact": "contact customer support",
+    "contact_content": "If the issue persists. Please",
+    "recent_matches": "Recent matches"
+  },
+  "ComingSoon": {
+    "title": "Coming-soon/即將推出",
+    "content": "This feature is currently still under development. We aim to ensure every detail meets the highest standards for the best user experience, making your usage smoother and more convenient. Please stay tuned for the upcoming new feature. If you have any suggestions or questions, feel free to contact us — let’s work together to create an even better experience!",
+    "back_to_home": "Back to Home",
+    "recent_events": "Recent Events"
+  },
+  "ExpiredToken": {
+    "expired": "TOKEN IS EXPIRED",
+    "title": "Oops! Something Went Wrong.",
+    "content": "We’re sorry, but it seems like your reset link has expired.",
+    "request": "Please request a new password reset link.",
+    "try_again": "Try Again",
+    "back_to_home": "Back to Home",
+    "contact": "Contact Support",
+    "contact_content": "If the issue persists."
+  },
+  "MainPage": {
+    "Title": {
+      "name": "Taiwan Professional Volleyball League"
+    },
+    "HeaderMenu": {
+      "home": "Home",
+      "results": "Results",
+      "information": "Information",
+      "teams": "Teams",
+      "mall": "Mall",
+      "about": "About"
+    },
+    "LoginButton": {
+      "name": "Log in/Sign up"
+    },
+    "LogoutButton": {
+      "name": "Logout"
+    },
+    "ResultsItem": {
+      "ranking": "Ranking",
+      "record": "Record",
+      "competition-data": "Competition Data",
+      "player-introduction": "Player Introduction"
+    },
+    "InformationItem": {
+      "announcement": "Announcement",
+      "schedule": "Schedule",
+      "news": "News",
+      "photo": "Photo",
+      "video": "Video"
+    },
+    "MallItem": {
+      "tickets": "Tickets",
+      "store": "Store"
+    },
+    "AboutItem": {
+      "about": "About the League",
+      "organization": "League Organization",
+      "rule": "Tournament Rules",
+      "referee": "Referee",
+      "contact": "Contact Us"
+    },
+    "RefereeItem": {
+      "training": "Training",
+      "introduction": "Introduction"
+    },
+    "ContainerPage": {
+      "news": "News",
+      "video": "Video",
+      "see_more": "See more",
+      "empty_title": "Coming-soon/即將推出",
+      "empty_content": "No relevant information is available at the moment. Please check back later or explore other content!",
+      "emptyvideo_title": "Coming-soon/即將推出",
+      "emptyvideo_content": "We’re working on something amazing for you. Stay tuned as we get everything just right! You can take a look at other TPVL content!",
+      "emptyvideo_btnabout": "About",
+      "emptyvideo_btnteam": "Teams"
+    },
+    "FooterMenu": {
+      "content": "All Rights Reserved",
+      "business": "Business Collaboration",
+      "policy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact Us"
+    },
+    "Announcement": {
+      "announcement_title": "Announcement",
+      "see_more": "See more",
+      "other_announcements": "Other announcements",
+      "learn_more": "Learn More"
+    },
+    "Partners": {
+      "title": "Partners"
+    },
+    "Schedule": {
+      "title": "Schedule",
+      "full_schedule": "Full schedule"
+    }
+  },
+  "LoginPage": {
+    "title": "Member Login",
+    "user_account": "User Account",
+    "hint_user_account": "Please enter your email",
+    "email": "Email",
+    "hint_email": "Please Enter Your Email",
+    "password": "Password",
+    "hint_password": "Please enter your password",
+    "btn_login": "Sign In Now",
+    "or": "or",
+    "signup": "Sign Up",
+    "forgetpassword": "Forget your password?",
+    "take_action_now": "Coming-soon/即將推出",
+    "not_member_yet": "Not a member yet?",
+    "description_signup": "All friends who love volleyball are welcome to join the TPVL league family! In addition to obtaining first-hand information about the TPVL Alliance, there will also be periodic member-exclusive benefits!",
+    "go_to_registration": "Go to registration",
+    "LoginFailed": {
+      "title": "Failed",
+      "btn_ok": "OK"
+    }
+  },
+  "NewsDetails": {
+    "related": "Related News"
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "email_subject": "Announcement From Contact Us",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "placeholder_name": "Enter your name",
+    "placeholder_phone": "Enter your phone number",
+    "placeholder_email": "Enter your email",
+    "placeholder_message": "Enter your message",
+    "btn_submit": "Submit",
+    "SubmitFailed": {
+      "title": "Submission Failed",
+      "message": "Something went wrong!",
+      "btn_ok": "OK"
+    },
+    "error_required": "Please fill out your {{field}}",
+    "contact_message": "「If you have any questions regarding our matches or partnership inquiries, feel free to contact us!」",
+    "contact_description": "We continuously update match information, media interviews, and sponsorship opportunities. If you have any suggestions or inquiries, please contact us!",
+    "contact_email": "winney@TPVL2025.onmicrosoft.com",
+    "address": "2F-5, No. 129, Songjiang Road, Zhongshan District, Taipei City"
+  },
+  "TournamentPage": {
+    "title": "Tournament Rules",
+    "link": "View Rules"
+  },
+  "RefereePage": {
+    "title_page_1": "Referee Recruitment",
+    "order_desc": "Newest to Oldest",
+    "order_asc": "Oldest to Newest",
+    "register": "Register",
+    "scroll_down_tips": "Please scroll down to read the full training content",
+    "next": "Next",
+    "back": "Back",
+    "cost_breakdown": "Cost Breakdown",
+    "registration_fee": "Registration Fee",
+    "name": "Name",
+    "date_of_birth": "Date of Birth",
+    "contact_phone_numbers": "Contact Phone Numbers",
+    "registration_session": "Registration Session",
+    "time": "Time",
+    "payment": "Payment",
+    "payment_method": "Payment Method",
+    "bank_transfer": "Bank Transfer",
+    "third_party_payment": "Third-Party Payment",
+    "payment_bank_code": "Payment Bank Code",
+    "payment_account": "Payment Account",
+    "account_last_digit": "Account Last 5 Digits",
+    "please_enter_account": "Please Enter Your Account",
+    "discription_bank_account": "The last five digits of the account are provided for staff reconciliation and will not be used for other purposes.",
+    "discription_third_party": "You have currently selected to pay by ",
+    "discription_third_party_1": "",
+    "copy_account": "Copy Account",
+    "cancel_button": "Cancel",
+    "confirm_button": "Confirm",
+    "payment_information": "Payment Information",
+    "RegisterSuccess": {
+      "title": "Registration Successful!",
+      "workshop_details": "Workshop Details",
+      "content": "Email has been sent, please check your email (Winney@tpvl2025.onmicrosoft.com) for details. If you have not received it, please click Resend.",
+      "resend": "Resend",
+      "referee": "Referee",
+      "home": "Home"
+    },
+    "personal_information": "Personal Information",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "gender": "Gender",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "upload_file": "Upload File",
+    "attach_desc1": "Please provide your ID photo",
+    "attach_desc2": "(File size less than 2MB)",
+    "place_holder": "Please input ",
+    "residential_address": "Residential Address",
+    "mailing_address": "Contact Address",
+    "residential_street": "Residential Street",
+    "mailing_street": "Mailing Street",
+    "same_residential_address": "Same as Residential Address",
+    "upload_id_document": "Upload your ID Document",
+    "id_card": "ID card",
+    "driver_licence": "Driver licence",
+    "passport": "Passport",
+    "id_number": "ID number",
+    "issue_date": "Issue date",
+    "expiration_date": "Expiration date",
+    "landline": "Landline",
+    "mobile": "Mobile",
+    "please_enter_your_phone": "Please Enter Your Phone Numbers",
+    "please_enter_your_email": "Please Enter Your Email",
+    "current_occupation": "Current Occupation and Institution",
+    "department": "Department",
+    "please_enter_complete": "Please Enter Complete Company Information",
+    "workplace_address": "Workplace Address",
+    "position": "Position",
+    "job_title": "Job Title",
+    "institution": "Institution",
+    "occupation_description": "For recent graduates, specify school, department, and year",
+    "referee_license": "Referee License",
+    "experience_various_competitions": "Experience in Various Cup Competitions",
+    "add_new_button": "Add New",
+    "cup_competitions_name": "Cup Competitions Name",
+    "delete_button": "Delete",
+    "upload_certificate": "Upload your Qualification certificate(file format bmp/jpg)",
+    "document_certificate": "Please upload your referee qualification certificate",
+    "document_certificate_1": "File size must be less than 5MB, in JPEG or PNG format",
+    "volleyball_experience": "Volleyball Experience",
+    "up_500_characters": "Up to 500 Characters Maximum",
+    "registration_information_page_title": "Registration Information",
+    "registration_information": "Registration Information",
+    "emergency_contact": "Emergency Contact",
+    "relation": "Relation",
+    "agree_allow_description_1": "I agree that the Taiwan Professional Volleyball League will use the submitted personal information for this recruitment process",
+    "agree_allow_description_2": "submitted personal information to be used by the organizing",
+    "agree_allow_description_3": "unit for this recruitment process.",
+    "have_read": "I have agreed and read the contents of the Taiwan Professional Volleyball League Volleyball Referee Training",
+    "submit_button": "Submit",
+    "all_fields_required": "All fields are required. Please provide accurate information.",
+    "chinese": "Chinese",
+    "english": "English",
+    "institution_yes_no": "Yes/No",
+    "dropdown_label": "Grade",
+    "grade_a": "Grade A",
+    "grade_b": "Grade B",
+    "grade_c": "Grade C",
+    "experience": "Experience ",
+    "en_roll": "Enroll",
+    "information_chinese_1": "",
+    "information_chinese_2": "",
+    "information_chinese_3": "",
+    "spouse": "Spouse",
+    "parents": "Parents",
+    "siblings": "Siblings",
+    "relatives": "Relatives",
+    "friends": "Friends",
+    "others": "Others",
+    "login_or": "or",
+    "placeholder_emergencty_contact": "Please input Email",
+    "account_last_digit_error": "Please enter the last 5 digits of the account",
+    "upload_certificate_photo_error": "Failed to upload certificate image",
+    "upload_portrait_photo_error": "Failed to upload portrait image",
+    "first_name_required": "First name is required",
+    "last_name_required": "Last name is required",
+    "birthdate_required": "Date of birth is required",
+    "portrait_photo_required": "Portrait photo is required",
+    "residential_street_required": "Residential street is required",
+    "mailing_street_required": "Mailing street is required",
+    "id_number_required": "ID number is required",
+    "phone_number_required": "Phone number is required",
+    "email_required": "Email is required",
+    "department_required": "Department is required",
+    "workplace_address_required": "Workplace address is required",
+    "job_title_required": "Job title is required",
+    "institution_required": "Institution is required",
+    "cup_competitions_name_required": "Cup competitions name is required",
+    "Grade": {
+      "grade_required": "Grade is required",
+      "grade_select": "Please select one grade"
+    },
+    "certificate_required": "Certificate is required",
+    "volleyball_experience_required": "Volleyball experience is required",
+    "volleyball_experience_max_length": "Volleyball experience is too long",
+    "Emergency": {
+      "email_required": "Emergency contact email is required",
+      "phone_number_required": "Emergency contact phone number is required"
+    },
+    "phone_number_invalid": "Invalid phone number",
+    "email_invalid": "Invalid email address",
+    "select_two_boxes": "Please select two checkboxes before continuing.",
+    "birthdate_invalid": "Invalid date of birth",
+    "city": "City",
+    "district": "District",
+    "city_required": "City is required",
+    "district_required": "District is required",
+    "mailing_city_required": "City is required",
+    "mailing_district_required": "District is required",
+    "email_address": "Email",
+    "company_address": "Company Address",
+    "referee_qualification_certificate": "Referee qualification certificate",
+    "emer_contact_label_name": "Name",
+    "note": {
+      "label": "Notes",
+      "note_1": "1. Please complete the payment of this training fee by bank transfer/remittance. The alliance will verify the last five digits of the account number, so please be sure to fill it out correctly. If you have any questions, please contact the relevant department to confirm the payment information.",
+      "note_2": "2. Please note that please pay the registration fee before the registration deadline. Applications received after the deadline will not be accepted."
+    }
+  },
+  "SignUp": {
+    "title": "SIGN UP",
+    "Introduction": {
+      "title": "Membership Agreement Reading",
+      "description": "You need to agree to the Membership Agreement, please read the Terms of Service and Privacy Policy below.",
+      "confirm_agreement": "Confirm your agreement and press the \"Next\" button.",
+      "content_condition_1": "Terms of Service <br> 1. Recognition and Acceptance of Terms <br> \"P. LEAGUE+\" provides services in accordance with these Terms of Service (hereinafter referred to as \"the Service\"). When members complete the membership registration procedures for this service or begin to use this service, it means that they have read, understood and agreed to accept all the contents of this service agreement, and fully accept the existing and future derivative service items and content of this service. This service has the right to modify or change the content of this service agreement at any time. The modified service agreement will be published on the website. This service will not notify members individually. Members are advised to pay attention to such modifications or changes at any time. If a member continues to use the Service after any modification or change, it is deemed that the member has read, understood and agreed to accept such modification or change. If you do not agree to the above-mentioned revision or update of the Terms of Service, or do not accept any other provisions of these Terms of Service, you should immediately stop using this service. <br> If a member is a minor under the age of 20, he or she may register as a member, use or continue to use the service only after his or her parents (or guardians) have read, understood and agreed to all contents of this Agreement and any subsequent amendments or changes. When a member uses or continues to use this service, it is presumed that the member's parent (or guardian) has read, understood and agreed to all contents of this Agreement and any subsequent modifications and changes. <br> Members and this service both agree that all contents of this service, including expressions of intent, shall be expressed in electronic documents. <br> In order to ensure the protection of members' personal information, privacy and consumer rights, members' personal information will be used during the transaction process. <br> 2. Member registration obligations <br> Provide accurate and up-to-date information according to the service registration form, and may not register as a member in the name of a third party. Each member can only register and log in to one account and cannot register and log in repeatedly. <br> Maintain and update member personal information in real time to ensure its accuracy in order to obtain the best service. <br> If a member provides any wrong or false information, fails to provide information as instructed, lacks necessary information, or registers an account repeatedly, this service has the right to suspend or terminate the member's account without prior notice and refuse the member's use of this service. <br> 3. This Service Privacy Policy Member registration and other specific information are protected and regulated in accordance with this Service Privacy Policy.",
+      "content_condition_2": "<br> IV. Member Account, Password and Security <br> After completing the registration process for this service, members will obtain a specific password and member account. It is the member's responsibility to maintain the confidentiality and security of the password and account. <br> Any member account and password entered in accordance with the prescribed method that is consistent with the login information will be presumed to be used by the member himself, regardless of whether he personally entered it or not. The member himself shall bear full responsibility for all actions taken using the password and account. <br> Members agree to the following: <br> When a member's password or account is stolen or any other security issues occur, the member will immediately notify the service <br> The member's account will be terminated each time the connection is completed. <br> Member accounts, passwords and membership rights are for personal use and enjoyment only and may not be lent, transferred or shared with others. <br> If your account and password are stolen, used improperly, or in other situations where the service is unable to identify whether it is used by you personally, the service will not be responsible for any damage caused unless it can be proven that the damage is caused by reasons that can be attributed to the service. <br> If this service becomes aware that a member's account and password have been used by someone else, the use of that account (including the processing of transactions generated by that account) will be suspended immediately. <br> 5. Protection of Children and Teenagers To ensure the safety of children and teenagers when using the Internet and to avoid infringement of their privacy, parents (or guardians) should fulfill the following obligations: Children under the age of twelve should be accompanied throughout the use of this service, and teenagers aged 12 to 18 should also consider whether to give their consent before using this service. <br> 6. User's Legal Obligations and Commitments Members promise not to use the Service for any illegal purpose or in any illegal manner, and promise to abide by the relevant laws and regulations of the Republic of China and all international practices regarding the use of the Internet. If the member is a user outside the Republic of China, he/she agrees to abide by the laws of the country or region to which he/she belongs. Members agree and guarantee that they will not use this service to infringe upon the rights of others or engage in illegal activities, including but not limited to: <br> Publish or transmit any defamatory, insulting, threatening, offensive, indecent, obscene, untrue, violating public order or good customs or other illegal texts, pictures or files of any form. <br> Infringement or damage to the reputation, privacy, trade secrets, trademarks, copyrights, patents, other intellectual property rights and other rights of this service or others <br> Violation of confidentiality obligations under laws or contracts <br> Using this service in the name of others",
+      "content_condition_3": "<br> Transmitting or disseminating computer viruses <br> Engaging in commercial activities not authorized in advance by this service <br> Publishing, transmitting, sending spam, chain letters, illegal or unauthorized multi-level marketing messages and advertisements, etc.; or storing any information that infringes on the intellectual property rights of others or violates laws <br> Behavior that causes trouble, displeasure or violates general network etiquette to other users of this service or third parties <br> Other behaviors that are inconsistent with the purpose of use provided by this service or that this service has legitimate reasons to deem inappropriate <br> VII. Changes in service content and sending of e-newsletters and EDMs <br> This service may increase, decrease, change or terminate the items or content of related services according to business needs and actual circumstances, without individually notifying members. <br> Members agree that this service may add, modify or terminate related activities based on actual implementation circumstances, and choose the most appropriate method to inform members. <br> Members agree that this service may send e-newsletters or product messages (EDM) to the member's registered e-mail account from time to time. When a member refuses to accept marketing after receiving the message, this service will stop sending marketing messages. <br> 8. Suspension and Interruption of Service This service will maintain the normal operation of the system and service based on generally reasonable technologies and methods. However, this service has the right to stop or interrupt the provision of this service in the following circumstances: <br> When the electronic communication equipment of this service website undergoes necessary maintenance and construction <br> When a sudden electronic communication equipment failure occurs <br> When the electronic communication service applied for by this service website is stopped and the service cannot be provided <br> When this service website cannot provide services due to force majeure such as natural disasters or other factors that are not attributable to this service <br> IX. Transaction Behavior",
+      "content_condition_4": "<br> When members use this service to conduct transactions, they should follow the confirmation of commodity quantity and price mechanism provided by this service. <br> When members agree to use this service to order products, this service still reserves the right to refuse to accept the order or cancel the shipment before this service notifies and confirms the transaction. After a member sends an order notification to this service, the system will automatically send an acceptance notification, but this notification is not an order confirmation notification. This service will notify you separately whether the transaction is established or not. If the transaction conditions (including but not limited to specifications, content descriptions, pictures, etc.) of the subject goods or services in the order content are incorrect, this service may still reject the order within two working days after the order is placed. <br> If a member returns or exchanges products, cancels an order, or takes any action that is deemed inappropriate by this service and causes trouble or damage to the operation of this service after ordering products using this service, this service may, depending on the circumstances, refuse the transaction, suspend or cancel the 7-11 or K-Mart delivery payment method, or permanently cancel the membership. If the product ordered by a member falls into the following situations: (1) pre-order items; (2) the product page shows that it is out of stock; (3) the product needs to be transferred from the supplier; (4) the product is shipped by the manufacturer. Due to the characteristics of commodity transactions, if the product is out of stock or the manufacturer is unable to supply the product for some reason, resulting in the order being unable to be completed, this service will notify you in the most appropriate way (primarily by email, supplemented by telephone, mail or fax, etc.). <br> When members use this service to conduct transactions, they may exercise their rights in accordance with the provisions of the Consumer Protection Act. If any doubts arise regarding these Terms of Service due to members’ trading behavior, they shall be interpreted in a manner favorable to consumers. <br> 10. Limitation and Exclusion of Liability <br> All functions provided by this service are provided for use based on the current status of the function at that time. This service does not bear any express or implied warranty responsibility for its performance, speed, completeness, reliability, security, correctness, etc. <br> This service does not guarantee that the emails or their contents transmitted by the service's web pages, servers, domains, etc. will not contain computer viruses or other harmful substances; nor does it guarantee that the transmission and storage of emails, files, or data will be correct and will not be disconnected or erroneous. This service is not responsible for any damages caused by the failure, loss, or error in the transmission or storage of such emails, files, or data. <br> 11. Protection of Intellectual Property Rights",
+      "content_condition_5": "<br> The software or programs used by this service, all content on the website, including but not limited to works, pictures, files, information, data, website structure, website screen arrangement, web design, are all owned by this service or other rights holders in accordance with the law. The intellectual property rights include but are not limited to trademark rights, patent rights, copyrights, trade secrets and proprietary technologies. No one may use, modify, reproduce, publicly broadcast, adapt, distribute, issue, publish, perform restoration engineering, decompile or reverse-translate the Contents without authorization. If members wish to quote or reproduce the aforementioned software, programs or website content, they must obtain the prior written consent of this service or other rights holders in accordance with the law. It is the member's obligation to respect intellectual property rights. If violated, the member shall be liable for damages to the owner of the rights related to this service (including but not limited to litigation costs and attorney fees, etc.). <br> Under the principle of respecting the intellectual property rights of others, members agree not to infringe on the intellectual property rights of others when using this service. <br> If a member is involved in copyright infringement, this service may suspend all or part of the service, or simply cancel the member account. <br> If you find that your intellectual property rights have been infringed, please contact this service in the following ways, including the circumstances of the infringement and contact information, and attach a true statement and a declaration that you own legal intellectual property rights: Send an email to: law@pleagueofficial.com (Please note! This is a limited-use mailbox. Letters sent here that are not related to infringement notifications will not be accepted. If members of this service have any questions, please go to the customer service center to ask.) <br> 12. Members’ Authorization for This Service For information uploaded, transmitted, inputted or provided by members, members agree that this service website may collect, process, store, transmit and use such information within a reasonable scope to provide users with other information or services, or to prepare member statistics, or to conduct surveys or research on network behavior, or for any legal purpose. If a member does not have the legal right to authorize others to use, modify, reproduce, publicly broadcast, adapt, distribute, issue, or publicly publish certain information, and to sublicense the aforementioned rights to a third party, please do not upload, transmit, input, or provide such information to this service without authorization. Once any information is uploaded, transmitted, input or provided to this service by a member, it is deemed that the member has allowed this service to unconditionally use, modify, reproduce, publicly broadcast, adapt, distribute, issue and publicly publish such information, and may sublicense the aforementioned rights to others. Members have no objection to this. Members shall also ensure that the use, modification, reproduction, public broadcast, adaptation, dissemination, issuance, public publication and sublicensing of such information by this service shall not infringe upon the intellectual property rights of any third party. Otherwise, they shall be liable for damages to this service (including but not limited to litigation costs and attorney fees, etc.).",
+      "content_condition_6": "<br> 13. Special Authorization Matters Because the online transactions or activities provided by this service may require delivery or retrieval of goods (or gifts, etc.) through home delivery or freight operators, members agree and authorize this service to provide the personal information provided by members and necessary for delivery (such as recipient's name, delivery address, contact number, etc.) to home delivery or freight operators and related cooperating manufacturers, depending on the needs and purpose of the online transaction or activity, in order to facilitate the delivery and retrieval of the goods (or gifts, etc.). <br> 14. Refusal or termination of member's use Members agree that the Service may, based on the consideration of maintaining transaction security, terminate the member's password, account (or any part thereof) or use of the Service (or any part thereof) or remove and delete any \"member content\" within the Service for any reason, including but not limited to lack of use, or violation of the express provisions and spirit of the Terms of Service. In addition, members agree that if the use of the Service (or any part thereof) is terminated, the Service shall not be liable to members or any third party. <br> 15. Governing Law and Jurisdiction The interpretation and application of these Terms of Service, as well as any disputes or controversies related to these Terms of Service or arising from transactions between members and this service, shall be handled in accordance with the laws of the Republic of China, and the Taipei District Court of Taiwan shall be the court of first instance. <br> Privacy Policy <br> \"P. LEAGUE+\" attaches great importance to privacy protection and complies with the provisions of the Personal Data Protection Act. In order to allow you to use this website and its services and information (hereinafter referred to as this website) with peace of mind, we hereby explain the privacy protection policy of this website to you to protect your rights and interests. Please read the following content carefully: <br> 1. Scope of application of the privacy protection policy <br> The content of the privacy protection policy is limited to how this website handles personal identification information collected when you use the service. Please note that this privacy protection policy does not apply to related linked websites other than this website, nor does it apply to personnel who are not entrusted or involved in the management of this website. <br> 2. Who collects your personal information? <br> The personal information of consumers on this website is collected, processed and used by P.LEAGUE+ (hereinafter referred to as the Company). <br> 3. Why do we collect your personal information (Purpose of Collection) <br> (I) Marketing (including joint marketing business with financial holding companies) <br> (II) Credit card, cash card, transfer card or electronic ticket business <br> (III) Contract, quasi-contract or other legal relationship matters <br> (IV) Reservation, accommodation registration and ticket purchase business",
+      "content_condition_7": "<br> (V) Consumer and customer management and services <br> (VI) Business and technical information <br> (VII) Procurement and supply management <br> (VIII) Accounting and related services <br> (IX) Information (communication) services <br> (X) Information (communication) and database management <br> (XI) Information security and management <br> (XII) Online shopping and other e-commerce services <br> (XIII) Survey, statistics and research analysis <br> (XIV) Other business purposes that are in accordance with the business registration items or articles of association of this website and are legally operated in addition to the above items. <br> IV. What personal information do we collect from you? Account information: including your name, ID number, telephone number, mobile phone number, email address, correspondence and household registration address, and other personal information related to your account. <br> This website usage information includes information about how you use the services of this website and the related financial and logistics services provided by the Company, as well as information about the product pages you browse using this website, such as the browsing URL, time, product type, consumption pattern, usage, etc. <br> Location Information: refers to the geographical location information of the network you connect to when using this website. <br> Other service information: If you have become or will become a customer or member of other services of our company, we may combine your personal data with the information of other services so that we can better understand you and provide more optimized and appropriate services. <br> Other Information: In addition to the above categories, it also includes other information generated when you use the Company's services, including but not limited to the information you fill in the information fields of this website or related application forms, consent forms or contract documents. <br> 5. How we use personal information <br> The personal information obtained by this website is only used within the scope of this website’s services. Unless otherwise stated in advance or in accordance with relevant laws and regulations, the information will not be provided to a third party or used for other purposes. <br> When you visit this website or use the functional services provided by this website, we will ask you to provide necessary personal information depending on the nature of the service function, and process and use your personal information within the scope of the specific purpose; without your written consent, this website will not use your personal information for other purposes. <br> During normal browsing, the system will automatically record related actions, including the IP address of the device you use to connect, usage time records, etc., as a reference for us to improve our website services. This record is for internal use and will never be published to the public.",
+      "content_condition_8": "<br> In order to provide accurate services, we will collect statistics and analyze the contents of the questionnaires. The statistical data or explanatory text of the analysis results will be presented for internal research. We will publish the statistical data and explanatory text as needed, but it will not involve the information of specific individuals. <br> This website will never provide, exchange, rent or sell any of your personal information to other individuals, groups, private enterprises or public agencies, unless there is a legal basis or contractual obligation. The circumstances of the proviso in the preceding paragraph include but are not limited to: <br> With your written consent. <br> The law clearly stipulates. <br> To avoid danger to your life, body, freedom or property. <br> Cooperation with government agencies or academic research institutions, where it is necessary for statistical or academic research based on the public interest, and the data is processed by the provider or collector in a way that makes it impossible to identify specific parties. <br> When your behavior on this website violates the terms of service or may damage or hinder the rights of the website and other users or cause damage to anyone, the website management unit may analyze and disclose your personal information for the purpose of identification, contact or taking legal action. <br> It is beneficial to your interests. <br> When this website entrusts manufacturers to assist in collecting, processing or using your personal information, it will fulfill its responsibility to supervise and manage the outsourced manufacturers or individuals. <br> 6. How do we protect privacy? Protecting the personal privacy of customers is an important business philosophy of \"P. LEAGUE+\". Without the customer's consent, we will never provide the customer's personal information to any third party who is not related to our company's services. <br> The hosts of this website are equipped with firewalls, anti-virus systems and other related information security equipment and necessary security protection measures to protect the website and your personal information. Strict protection measures are adopted. Only authorized personnel can access your personal information. Relevant processing personnel have signed confidentiality agreements. Anyone who violates the confidentiality obligation will be subject to relevant legal sanctions. <br> If it is necessary to entrust other units to provide services due to business needs, this website will also strictly require them to abide by confidentiality obligations and take necessary inspection procedures to ensure that they will actually comply. <br> To protect the privacy and security of customers, this website strives to use reasonable technology and procedures to ensure the security of all personal data. <br> In order to facilitate customer use, this website will use cookie technology to provide the services required by customers; cookie is a technology used by website servers to communicate with member browsers. It may randomly store strings in members' computers to identify and distinguish users. <br> VII. Disclaimer of External Links <br> This website provides links to other websites. You can also click on the links provided by this website to access other websites. Please note that the linked website is not subject to the privacy policy of this website and you must refer to the privacy policy of the linked website. <br> 8. What rights can you exercise?",
+      "content_condition_9": "<br> (I) The rights you enjoy include: query or request to read, request to make a copy, request to supplement or correct information, request to stop collecting, processing or using, and request to delete. <br> (II) How to exercise the above rights: Please contact the administrator of this website via email to exercise the relevant rights. <br> IX. Impact of your failure to provide personal information <br> You have the right to freely choose whether to provide personal information, but if you do not provide it, you will not be able to use the services of this website, and the company will not be able to fulfill its contractual rights or obligations to you. <br> 10. Amendment of Privacy Policy <br> As the market environment changes, the privacy policy of this website will be amended at any time according to the needs, and the amended terms will be posted on the website. If members have any questions about the \"P. LEAGUE+\" website privacy statement or related matters related to personal data, they can send us an email.",
+      "back_button": "Back",
+      "next_button": "Next"
+    },
+    "Page1": {
+      "title": "Membership Information",
+      "account": "Account (email)",
+      "hint_account": "Please use the correct email",
+      "password": "Password",
+      "hint_password": "Type your password",
+      "confirm_password": "Confirm Password",
+      "hint_confirm_password": "Please type again",
+      "precautions": "Precautions",
+      "precautions_content1": "The password must be a string of at least 8 characters.",
+      "precautions_content2": "A password string interspersed with numbers, uppercase and lowercase letters and symbols (for example: # % $ @...) should be used.",
+      "precautions_content3": "Avoid using letters or numbers that are repeated, too simple and easy to guess, or that are the same as the account number (eg: aaa, abc, 123...).",
+      "precautions_content4": "Avoid using information that others can easily obtain as a password (for example: English name, birthday or phone number... etc.).",
+      "precautions_content5": "Avoid using single words or abbreviations of agency names found in dictionaries (for example: car, CYUT...etc.)."
+    },
+    "Page2": {
+      "first_name": "First Name",
+      "hint_first_name": "Please enter First Name",
+      "last_name": "Last Name",
+      "hint_last_name": "Please enter Last Name",
+      "gender": "Gender",
+      "gender_hint": "Select your gender",
+      "male": "Male",
+      "female": "Female",
+      "birth": "Birth",
+      "hint_birth": "Please select your birthday",
+      "title": "Mailbox Verification",
+      "description": "Please enter your email for verification",
+      "confirm_agreement": "The email address you entered will be used as your login account in the future",
+      "send_verification_code": "Send verify code",
+      "120_seconds": "(120 seconds)",
+      "verification_code": "Verification Code",
+      "hint_verification_code": "Please enter the verification code",
+      "didnt_receive_verification_code": "Didn't receive a verification code?",
+      "verify_code_failed": "Verify Code Failed"
+    },
+    "Page3": {
+      "title": "Member information confirmation",
+      "sub_title": "Basic Information",
+      "account": "Account",
+      "sex": "Sex",
+      "password": "Password",
+      "birth": "Birth",
+      "name": "Name",
+      "email": "Email",
+      "re_edit": "Re-edit",
+      "confirm_send": "Confirm"
+    },
+    "Page4": {
+      "welcome": "Successful registration",
+      "content1": "Congratulations on your successful registration as a TPVL member! You will be the first to get the latest event information, exciting event news, and member-exclusive benefits waiting for you!",
+      "content2": "Follow TPVL now and cheer for your favorite teams and players with us!",
+      "content3": "If you have not received the letter, it may in the junk mail, please be sure to check it."
+    },
+    "FailedPage": {
+      "title": "Failed to create account",
+      "btn_retry": "Retry"
+    },
+    "successful_toast": "Successfully resend email",
+    "verify_now": "Verify now!",
+    "btn_back": "Back",
+    "btn_next": "Next",
+    "btn_confirm": "Confirm",
+    "btn_cancel": "Cancel",
+    "btn_goto_login": "Go to Log In"
+  },
+  "ForgotPassword": {
+    "title": "Forgot Password",
+    "content": "Failed to send email",
+    "content_1": "user with the email does not exist",
+    "MainPage": {
+      "email": "Email",
+      "content": "We will send the link to reset password to this email",
+      "btn_send": "Send Link"
+    },
+    "SuccessPage": {
+      "content": "Link to reset password sent to "
+    },
+    "FailedPage": {
+      "title": "Failed",
+      "invalid_password": "Invalid Password",
+      "email_not_register": "Email is not registered",
+      "email_not_verify": "Email has not been verified"
+    },
+    "btn_ok": "OK"
+  },
+  "ResetPassword": {
+    "title": "Reset Password",
+    "MainPage": {
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "btn_reset": "Reset Password"
+    },
+    "SuccessPage": {
+      "content": "Password reset successfully.",
+      "loginPrompt": "You may head to ",
+      "login": " login ",
+      "loginPrompt2": " with your new password."
+    },
+    "FailedPage": {
+      "title": "Failed to reset password"
+    },
+    "btn_ok": "OK"
+  },
+  "ProfileInformation": {
+    "title": "Personal Information"
+  },
+  "AccountSettingPage": {
+    "title": "Account Setting",
+    "name": "Name",
+    "hint_name": "Please add your name"
+  },
+  "VideoPage": {
+    "title": "Video",
+    "new_old": "Newest to Oldest",
+    "old_new": "Oldest to Newest"
+  },
+  "PhotoPage": {
+    "title": "Photo",
+    "new_old": "Newest to Oldest",
+    "old_new": "Oldest to Newest"
+  },
+  "NewsPage": {
+    "title": "News",
+    "new_old": "Newest to Oldest",
+    "old_new": "Oldest to Newest"
+  },
+  "MatchesList": {
+    "live": "Live",
+    "upcoming": "UpComing",
+    "final": "Final",
+    "schedule": "Game Schedule",
+    "week": "Week",
+    "no_match": "There are no matches scheduled for this week."
+  },
+  "PlayerProfile": {
+    "title": "Player Profile & Stats",
+    "careerStats": "Career Stats",
+    "attackPoints": "Attack Points",
+    "blockPoints": "Block Points",
+    "servePoints": "Serve Points",
+    "passes": "Passes",
+    "defenses": "Defenses",
+    "sets": "Sets",
+    "totalPoints": "Total Points",
+    "squad": "Squad",
+    "position": "Position",
+    "age": "Age",
+    "dob": "Date of Birth",
+    "school": "School",
+    "experience": "Experience",
+    "actionLabel": {
+      "attack": "Attacks",
+      "block": "Blocks",
+      "serve": "Serves",
+      "defense": "Defenses",
+      "pass": "Passes",
+      "set": "Sets"
+    },
+    "totalScoreLabel": {
+      "attack": "Total Attack Points",
+      "block": "Total Block Points",
+      "serve": "Total Serve Points",
+      "defense": "Total Defense Successes",
+      "pass": "Total Pass Successes",
+      "set": "Total Set Successes"
+    },
+    "timesUnit": "times",
+    "successRateLabel": "Success Rate",
+    "pointsUnit": "pts",
+    "squadPlaceHolder": "All squads"
+  },
+  "Filters": {
+    "season": "All Seasons",
+    "matchType": "All Matches",
+    "teamType": "All Teams",
+    "attackPoints": "Attack Points",
+    "allMatchTypes": "All Matches",
+    "allAttackPoints": "All Attack Points",
+    "allTeams": "All Teams"
+  },
+  "Schedule": {
+    "CompetitionData": {
+      "team": "Team",
+      "datasheet": "Datasheet (P2)",
+      "set_1": "Set 1",
+      "set_2": "Set 2",
+      "set_3": "Set 3",
+      "set_4": "Set 4",
+      "set_5": "Set 5",
+      "accumulated": "Accumulated Points",
+      "total_ratio": "Total Scores"
+    },
+    "PlayerData": {
+      "player": "Player",
+      "position": "Position",
+      "attack_points": "Attack Points",
+      "block_points": "Block Points",
+      "serve_points": "Serve Points",
+      "reception": "Reception Successful",
+      "dig": "Dig Successful",
+      "set": "Set Successful",
+      "total": "Total scores",
+      "summary": "Total of all units"
+    },
+    "allMonths": "All Months",
+    "allYears": "All Years",
+    "allTeams": "All Teams",
+    "year": "Select Year",
+    "month": "Select Month",
+    "all": "All",
+    "newest": "Newest to Oldest",
+    "oldest": "Oldest to Newest",
+    "future": "Future Events",
+    "result": "Result",
+    "home": "Home",
+    "away": "Away",
+    "date": {
+      "Monday": "Mon",
+      "Tuesday": "Tue",
+      "Wednesday": "Wed",
+      "Thursday": "Thu",
+      "Friday": "Fri",
+      "Saturday": "六",
+      "Sunday": "Sun"
+    },
+    "buy_ticket": "Tickets",
+    "review": "Review",
+    "record": "Record"
+  },
+  "Record": {
+    "record": "Team Statistics",
+    "see_more": "See more",
+    "team_ranking": "Team ranking",
+    "battle_ranking": "Battle ranking"
+  },
+  "TeamRanking": {
+    "ranking": "Ranking",
+    "team": "Team",
+    "match": "Matches Played",
+    "matches_won": "Matches Won",
+    "matches_lost": "Matches Lost",
+    "win_rate": "Win Rate",
+    "lose_rate": "Lose Rate",
+    "points": "Points",
+    "score_3_0": "3:0",
+    "score_3_1": "3:1",
+    "score_3_2": "3:2",
+    "score_0_3": "0:3",
+    "score_1_3": "1:3",
+    "score_2_3": "2:3",
+    "sets_won": "Sets Won",
+    "sets_lost": "Sets Lost",
+    "set_rate": "Set Win Rate",
+    "points_scored": "Points Scored",
+    "points_conceded": "Points Conceded",
+    "points_ratio": "Points Ratio",
+    "games_completed_rate": "Games completed rate",
+    "HomePage": {
+      "match": "Matches Played",
+      "matches_won": "Matches Won",
+      "matches_lost": "Matches Lost",
+      "sets_lost": "Sets Lost"
+    }
+  },
+  "RefereeIntroduction": {
+    "title": "Referee Introduction",
+    "CHIEF_REFEREE": "Chief Referee",
+    "CONSULTANT": "Consultant",
+    "UMPIRE": "Umpire"
+  },
+  "TeamPage": {
+    "title": "Teams",
+    "learn_more": "Learn more",
+    "management_team": "Management Team",
+    "coaching_staff": "Coaching Staff",
+    "player": "Player",
+    "position":{
+      "wing_spiker": "Wing Spiker",
+      "outside_hitter": "Outside Hitter",
+      "opposite_hitter": "Opposite Hitter",
+      "middle_blocker": "Middle Blocker",
+      "setter": "Setter",
+      "libero": "Libero",
+      "defensive_specialists": "Defensive Specialists",
+      "serving_specialist": "Serving Specialist"
+    },
+    "role":{
+      "head_coach": "Head Coach",
+      "assistant_coach": "Assistant Coach",
+      "trainer": "Trainer",
+      "chairman": "Chairman",
+      "coach": "Coach",
+      "manager": "Manager",
+      "leader": "Leader",
+      "athletic_trainer": "Athletic Trainer",
+      "general_manager": "General Manager"
+    }
+  },
+  "PlayerRankingPage": {
+    "title": "Player Rankings",
+    "position": {
+      "position": "Position",
+      "outside_hitter": "Outside Hitter",
+      "opposite_hitter": "Opposite Hitter",
+      "middle_blocker": "Middle Blocker",
+      "setter": "Setter",
+      "libero": "Libero"
+    },
+    "select_box": {
+      "select_squad_placeholder": "Select Squad",
+      "select_event_placeholder": "Select Event",
+      "title_box": {
+        "outside_hitter": "Outside Hitter",
+        "opposite_hitter": "Opposite Hitter",
+        "middle_blocker": "Middle Blocker",
+        "setter": "Setter",
+        "libero": "Libero",
+        "top_scorer": "Top Scorer"
+      }
+    },
+    "points": "Pts",
+    "number_of_times": "times",
+    "player_stats": {
+      "rank": "Rank",
+      "fullname": "Full name",
+      "jersey_number": "Jersey number",
+      "squad": "Squad",
+      "matches_played": "Matches played",
+      "rounds_played": "Rounds played",
+      "score": "Score",
+      "success_rate": "Success Rate",
+      "total": "Total",
+      "total_number": "Total Number",
+      "success_count": "Success Count",
+      "success": "Success",
+      "total_points": "Total points",
+      "spikes": "Spikes",
+      "completed_spikes": "Completed spikes",
+      "serves": "Serves",
+      "completed_serves": "Completed Serves",
+      "blocks": "Blocks",
+      "completed_blocks": "Completed Blocks",
+      "defenses": "Defenses",
+      "passes": "Passes",
+      "sets": "Sets",
+      "average_points_per_set": "Average Points per Set",
+      "average_points_per_game": "Average Points per Game"
+    }
+  }
+}

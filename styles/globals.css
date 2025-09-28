@@ -1,0 +1,809 @@
+body {
+  min-height: 100vh;
+  background: #002116;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  color: black;
+}
+
+.wl-home {
+  background-image: url('https://way-li.s3.ap-southeast-1.amazonaws.com/volleyball+Web02.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  outline: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  @apply scroll-smooth placeholder:font-input placeholder:text-input-placeholder antialiased;
+}
+
+body {
+  @apply p-0 m-0 font-body text-body2;
+}
+
+img.circle {
+  @apply object-cover;
+  height: 105% !important;
+  width: 105% !important;
+}
+.container {
+  padding: 1rem;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+#nprogress .bar {
+  background: #29d !important;
+}
+
+@media (min-width: 1440px) {
+  body {
+    @apply text-body5;
+  }
+  .container {
+    max-width: 1280px;
+  }
+
+  .container_about {
+    max-width: 1440px;
+    padding: 2rem;
+  }
+}
+
+h1 {
+  @apply font-primary text-h1;
+}
+
+h2 {
+  @apply font-primary text-h2;
+}
+
+h3 {
+  @apply font-primary text-h3;
+}
+
+h4 {
+  @apply font-primary text-h4;
+}
+
+/*
+===============
+| START: text |
+===============
+*/
+.wl-text.truncate-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+/*
+==============
+|  END: text |
+==============
+*/
+
+/*
+=====================
+| START: tab-header |
+=====================
+*/
+/* Hide scrollbar for Chrome, Safari and Opera */
+.wl-tab__header::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.wl-tab__header {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.wl-tab__header .swiper-slide {
+  width: unset !important;
+}
+
+.wl-tab__header--text .swiper-wrapper,
+.wl-tab__header--horizontal-bar .swiper-wrapper {
+  @apply flex justify-between;
+}
+
+.wl-tab__header--horizontal-bar .swiper-wrapper .swiper-slide {
+  @apply flex-grow;
+}
+
+@media (max-width: 768px) {
+  .wl-tab__header--event .swiper-slide,
+  .wl-tab__header--text .swiper-slide,
+  .wl-tab__header--horizontal-bar .swiper-slide {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .wl-tab__header--event .wl-tab__header__button-prev.swiper-button,
+  .wl-tab__header--event .wl-tab__header__button-next.swiper-button {
+    display: none;
+  }
+
+  .wl-tab__header--event .swiper-wrapper {
+    @apply flex justify-center;
+  }
+
+  .wl-tab__header:not(.wl-tab__header--horizontal-bar) {
+    @apply w-[80%] mx-auto;
+  }
+}
+
+.wl-competition-detail .wl-tab__header {
+  @apply w-[80%] lg:w-[50%] mx-auto;
+}
+
+.swiper-button {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.wl-tab__header__button-prev {
+  left: 0;
+}
+.wl-tab__header__button-next {
+  right: 0;
+}
+
+.wl-tab__header__button-disabled {
+  opacity: 0;
+}
+
+#next-slider-video-card [aria-disabled='true'],
+#prev-slider-video-card [aria-disabled='true'] {
+  opacity: 0;
+}
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+  .PC_only {
+    display: none;
+  }
+}
+
+.social_icons:hover {
+  color: #917653;
+}
+
+.custom-border-radius {
+  border-radius: 20px;
+}
+
+.text-green {
+  color: #004f36;
+}
+
+.border-green {
+  border: 2px solid #004f36;
+}
+
+.background-green {
+  background-color: #004f36;
+}
+
+.background-card {
+  background-color: #002116;
+}
+
+.custom-calendar-icon::-webkit-calendar-picker-indicator {
+  font-size: 1.5em;
+}
+
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-checkbox:checked {
+  background-color: #004f36;
+  border-color: #004f36;
+}
+
+.custom-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.custom-select select {
+  width: 100%;
+  height: 59px;
+  background-color: #ededed;
+  padding-left: 8px;
+  padding-right: 40px;
+  font-size: 16px;
+  color: #909090;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.custom-select .icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.title_mobile {
+  width: 100%;
+  height: 1.5em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.category_mobile {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.category_desktop {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.vertical-line {
+  position: relative;
+}
+
+.vertical-line::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 15%;
+  height: 70%;
+  width: 1px;
+  background-color: #d9d9d9;
+}
+
+.bottom-line {
+  position: relative;
+}
+
+.bottom-line::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  width: 90%;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+.boxBlurShadow {
+  box-shadow: 0px 0px 16px 0px #007900b2;
+}
+
+.blur-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(transparent, white);
+  pointer-events: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/*
+=====================
+| END: tab-header |
+=====================
+*/
+
+/*
+=====================
+| START: card-slider |
+=====================
+*/
+.wl-card-slider__button-next.swiper-button,
+.wl-card-slider__button-prev.swiper-button {
+  top: 0%;
+}
+
+.wl-card-slider__button-next.swiper-button:disabled,
+.wl-card-slider__button-prev.swiper-button:disabled,
+.wl-card-slider__button-disabled {
+  opacity: 0;
+}
+
+.slider-video-card .wl-card-slider__button-next.swiper-button,
+.slider-video-card .wl-card-slider__button-prev.swiper-button {
+  height: 220px;
+}
+
+.wl-card-slider .swiper-slide {
+  @apply h-auto;
+  width: unset;
+}
+
+.wl-card-slider .swiper-horizontal,
+.wl-card-slider .wl-card__wrapper {
+  @apply h-full min-h-full;
+}
+
+.wl-card-live-score .swiper-slide {
+  @apply mr-0;
+}
+
+/*
+=====================
+| END: card-slider |
+=====================
+*/
+
+/*
+=========================
+| START: media-carousel |
+=========================
+*/
+.wl-media-carousel
+  .swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  @apply flex justify-center gap-4 mt-6;
+}
+
+.wl-media-carousel .pagination.swiper-pagination-bullet {
+  @apply bg-linear-inactive-pagination rounded-[100px] w-[42px] h-[6px];
+}
+
+.wl-media-carousel .pagination.swiper-pagination-bullet-active {
+  @apply bg-linear-active-pagination;
+}
+/*
+========================
+| END: media-carousel |
+=======================
+*/
+
+/*
+=====================
+| START: form       |
+=====================
+*/
+
+/* Hide default up & down button */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.react-datepicker__input-container input[type='text'] {
+  @apply h-20 bg-gray-200 border border-gray-200 shadow-sm focus:outline-none;
+}
+
+.wl-input.error,
+.wl-input.error .react-datepicker__input-container input[type='text'] {
+  @apply border-rose-600;
+}
+
+.form-user-profile ul li,
+.form-sign-in ul li {
+  @apply font-secondary font-normal text-body3 mt-2 text-left;
+}
+
+/*
+=====================
+| END: form         |
+=====================
+*/
+
+/*
+=====================
+| START: menu-item  |
+=====================
+*/
+@media (max-width: 1024px) {
+  .wl-header {
+    @apply gap-y-[48px];
+  }
+
+  .wl-header__menu-wrapper {
+    width: 100%;
+  }
+
+  .wl-header__menu-wrapper .wl-menu__wrapper {
+    @apply w-full;
+  }
+
+  .wl-header__menu-wrapper .wl-menu {
+    @apply flex flex-row min-h-[52px] pl-[20px] pr-[20px] items-center justify-between;
+  }
+
+  .wl-header__content {
+    @apply w-full h-full;
+  }
+}
+
+/*
+=====================
+| END: menu-item    |
+=====================
+*/
+
+/*
+======================
+| START: tr-animated   |
+=====================-
+*/
+.wl-tr-animated:hover .wl-tr-animated__arrow,
+.wl-tickets__my-ticket:hover .wl-tickets__my-ticket__arrow {
+  @apply translate-x-10 opacity-100 transition-all duration-500 ease-in-out;
+}
+/*
+======================
+| END: tr-animated   |
+=====================-
+*/
+
+/*
+======================
+| START: tooltip      |
+=====================-
+*/
+
+.tooltip:before {
+  content: attr(data-text);
+  position: absolute;
+
+  transform: translateX(-50%);
+  left: 50%;
+  top: -5.5em;
+
+  /* basic styles */
+  width: 200px;
+  padding: 4px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+
+  display: none;
+
+  /* animating */
+  opacity: 0;
+  transition: 0.3s opacity;
+  font-size: 12px;
+}
+
+.tooltip:hover:before {
+  display: block;
+  opacity: 1;
+}
+
+/* Add arrow */
+.tooltip:after {
+  content: '';
+  position: absolute;
+  /* position tooltip correctly */
+  left: 50%;
+  top: -0.5em;
+  transform: translateX(-50%);
+
+  /* the arrow */
+  border: 10px solid #000;
+  border-color: black transparent transparent transparent;
+
+  display: none;
+
+  /* Animation */
+  opacity: 0;
+  transition: 0.3s;
+}
+.tooltip:hover:before,
+.tooltip:hover:after {
+  display: block;
+  /* Animation */
+  opacity: 1;
+}
+
+/*
+======================
+| END: tooltip      |
+=====================-
+*/
+
+/*
+=====================
+| START: game record |
+=====================
+*/
+#tab-game-record table tbody tr td {
+  @apply pt-10;
+}
+/*
+=====================
+| END: game record |
+=====================
+*/
+
+/*
+==========================
+| START: match set table |
+=========================
+*/
+.wl-table-match-set-score--is-mobile {
+  @apply w-full grid items-stretch;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wl-table-match-set-score--is-mobile {
+  @apply border-b-[1px];
+}
+
+.wl-table-match-set-score--is-mobile > div {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  border-bottom: 1px solid black;
+}
+
+.wl-table-match-set-score .odd {
+  background: lightgrey;
+}
+
+.wl-table-match-set-score .even {
+  background: grey;
+}
+
+.wl-table-match-set-score--is-desktop {
+  @apply hidden;
+}
+
+@screen lg {
+  .wl-table-match-set-score--is-mobile {
+    @apply hidden;
+  }
+  .wl-table-match-set-score--is-desktop {
+    @apply w-[80%] mx-auto grid font-body text-body2;
+    grid-template-columns: 150px 150px 1fr 100px;
+    align-items: stretch;
+  }
+
+  .wl-table-match-set-score--is-desktop > div {
+    @apply py-2.5 px-5 flex items-center justify-center text-center;
+  }
+
+  .wl-table-match-set-score--is-desktop > .round {
+    @apply p-0;
+  }
+
+  .wl-table-match-set-score--is-desktop > .header {
+    border: 1px solid white;
+    text-align: center;
+    background: black;
+    color: white;
+  }
+
+  .wl-table-match-set-score--is-desktop .round > div {
+    @apply flex w-full justify-center items-center;
+  }
+
+  .wl-table-match-set-score--is-desktop .round > div {
+    @apply grow text-center border-l-[1px] border-l-white border-collapse h-full;
+  }
+
+  .wl-table-match-set-score--is-desktop > div {
+    border: 1px solid white;
+  }
+
+  .wl-table-match-set-score--is-desktop .body {
+    @apply text-black;
+  }
+
+  .wl-table-match-set-score--is-desktop .body.date {
+    @apply text-white;
+    grid-row: span 2;
+  }
+}
+/*
+=========================
+| END: match set table  |
+=========================
+*/
+
+/*
+=====================
+| START: toast      |
+=====================
+*/
+.Toastify__toast {
+  padding: 20px !important;
+  border-radius: 8px !important;
+}
+
+.Toastify__toast-body {
+  @apply font-primary;
+}
+
+.Toastify__close-button--light {
+  @apply text-gray-900 opacity-100;
+}
+/*
+=====================
+| END: toast        |
+=====================
+*/
+
+/*
+=====================
+| START: news       |
+=====================
+*/
+.wl-news img {
+  @apply rounded;
+}
+
+.wl-news ul {
+  @apply list-disc;
+}
+
+.wl-news ol {
+  @apply list-decimal;
+}
+
+.wl-news hr {
+  @apply bg-linear-line w-full h-px border-none;
+}
+
+.wl-news.container * {
+  color: white !important;
+}
+
+.modify-content * {
+  background: transparent !important;
+  color: white !important;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+=====================
+| END: news         |
+=====================
+*/
+
+/* 
+==============================
+| START: Youtube embed react |
+==============================
+*/
+
+.wl-card-video .yt-lite {
+  @apply rounded-none;
+}
+
+.wl-card-video.video-vertical .yt-lite {
+  @apply h-[283px] flex flex-col p-4;
+}
+
+.wl-card-video.video-home .yt-lite {
+  @apply h-[211px];
+}
+/* 
+==============================
+| END: Youtube embed react |
+==============================
+*/
+@media only screen and (max-width: 760px) {
+  .non-mobile {
+    display: none;
+  }
+}
+
+/* ============================
+| START: Zoom overlay styling | 
+===============================
+*/
+
+[data-rmiz-modal-overlay='visible'] {
+  @apply bg-gray-800/90;
+}
+
+[data-rmiz-btn-unzoom] {
+  @apply bg-white text-black;
+}
+/* ============================
+| END: Zoom overlay styling | 
+===============================
+*/
+
+/* ============================
+| START: Submit button styling |
+===============================
+*/
+.submit-button {
+  background-color: #004f36 !important;
+  color: white !important;
+  font-size: 1.25rem; /* text-lg */
+  font-weight: bold;
+  padding: 1rem; /* py-4 */
+  width: 100%;
+  border: none;
+  border-radius: 0.375rem; /* rounded-md */
+  text-align: center;
+  cursor: pointer;
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ============================
+| END: Submit button styling |
+===============================
+*/

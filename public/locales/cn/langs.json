@@ -1,0 +1,687 @@
+{
+  "Common": {
+    "GeneralErrMsg": "出了點問題！"
+  },
+  "PageNotFound": {
+    "end": "。",
+    "content": "很抱歉，系統似乎遇到了一些狀況。請稍後再試，或聯繫我們以獲取協助。",
+    "try_again": "再試一次",
+    "back_to_home": "回到首頁",
+    "contact": "聯繫客服支援",
+    "contact_content": "如果問題持續發生，請",
+    "recent_matches": "最近比賽"
+  },
+  "ComingSoon": {
+    "title": "Coming-soon/即將推出",
+    "content": "目前此功能仍在開發中，我們希望確保每個細節都符合最佳體驗，讓您在使用時更加順暢與便利，敬請期待即將到來的全新功能。如果您有任何建議或問題，歡迎與我們聯繫，讓我們一起打造更好的使用體驗！",
+    "back_to_home": "回到首頁",
+    "recent_events": "近期賽事"
+  },
+  "ExpiredToken": {
+    "expired": "令牌已过期",
+    "title": "糟糕！出了点问题。",
+    "content": "很抱歉，您的重置链接已过期。",
+    "request": "请申请新的重置链接。",
+    "try_again": "再试一次",
+    "back_to_home": "返回首页",
+    "contact": "联系客服",
+    "contact_content": "如果问题仍然存在。"
+  },
+  "MainPage": {
+    "Title": {
+      "name": "台灣職業排球聯盟"
+    },
+    "HeaderMenu": {
+      "home": "首頁",
+      "results": "戰績",
+      "information": "消息",
+      "teams": "球隊",
+      "mall": "商城",
+      "about": "關於"
+    },
+    "LoginButton": {
+      "name": "登入/註冊"
+    },
+    "LogoutButton": {
+      "name": "登出"
+    },
+    "ResultsItem": {
+      "ranking": "綜合排行",
+      "record": "球隊戰績",
+      "competition-data": "各場數據",
+      "player-introduction": "球員數據"
+    },
+    "InformationItem": {
+      "announcement": "聯盟公告",
+      "schedule": "聯盟賽程",
+      "news": "新聞總覽",
+      "photo": "照片圖輯",
+      "video": "精彩影音"
+    },
+    "MallItem": {
+      "tickets": "賽事購票",
+      "store": "周邊商品"
+    },
+    "AboutItem": {
+      "about": "關於聯盟",
+      "organization": "聯盟架構",
+      "rule": "賽務章程",
+      "referee": "裁判招募",
+      "contact": "聯繫我們"
+    },
+    "RefereeItem": {
+      "training": "裁判招募",
+      "introduction": "裁判介紹"
+    },
+    "ContainerPage": {
+      "news": "新聞總覽",
+      "video": "精彩影音",
+      "see_more": "查看更多",
+      "empty_title": "Coming-soon/即將推出",
+      "empty_content": "目前尚無相關資訊。請稍後再查看或瀏覽其他內容！",
+      "emptyvideo_title": "Coming-soon/即將推出",
+      "emptyvideo_content": "我們正為您打造令人驚喜的體驗。敬請期待，我們將確保一切順利進行！您亦可瀏覽其他 TPVL 內容。",
+      "emptyvideo_btnabout": "關於TPVL",
+      "emptyvideo_btnteam": "球隊"
+    },
+    "FooterMenu": {
+      "content": "版權所有",
+      "business": "商務合作",
+      "policy": "隱私政策",
+      "terms": "服務條款",
+      "contact": "聯繫我們"
+    },
+    "Announcement": {
+      "announcement_title": "聯盟公告",
+      "see_more": "更多公告",
+      "other_announcements": "其他公告",
+      "learn_more": "了解更多"
+    },
+    "Partners": {
+      "title": "合作夥伴"
+    },
+    "Schedule": {
+      "title": "聯盟賽事",
+      "full_schedule": "完整賽事"
+    }
+  },
+  "LoginPage": {
+    "title": "會員登入",
+    "user_account": "帳號",
+    "hint_user_account": "請輸入電子郵件",
+    "email": "Email",
+    "hint_email": "請輸入 Email",
+    "password": "密碼",
+    "hint_password": "請輸入密碼",
+    "btn_login": "立即登入",
+    "or": "或",
+    "signup": "註冊",
+    "forgetpassword": "忘記密碼",
+    "take_action_now": "Coming-soon/即將推出",
+    "not_member_yet": "還不是會員嗎?",
+    "description_signup": "歡迎所有喜歡排球的朋友加入 TPVL 聯盟 大家庭!<br>除了可以獲得 TPVL 聯盟 的第一手消息之外，也會有不定 <br>期的會員專屬福利唷!",
+    "go_to_registration": "前往註冊",
+    "LoginFailed": {
+      "title": "失敗",
+      "btn_ok": "OK"
+    }
+  },
+  "NewsDetails": {
+    "related": "其他報導"
+  },
+  "ContactPage": {
+    "title": "聯繫我們",
+    "email_subject": "來自聯絡我們的公告",
+    "name": "姓名",
+    "phone": "聯絡電話",
+    "email": "信箱",
+    "message": "輸入你想說的話",
+    "placeholder_name": "請輸入你的姓名",
+    "placeholder_phone": "請輸入你的電話",
+    "placeholder_email": "請輸入你的信箱",
+    "placeholder_message": "請輸入你想說的話",
+    "btn_submit": "送出",
+    "SubmitFailed": {
+      "title": "提交失敗",
+      "message": "發生錯誤，請稍後再試",
+      "btn_ok": "確定"
+    },
+    "error_required": "請填寫您的{{field}}",
+    "contact_message": "「有任何賽事相關問題或合作需求？歡迎與我們聯繫！」",
+    "contact_description": "不論是賽事資訊、媒體採訪、贊助合作，還是對TPVL未來發展的建議，我們都樂意聆聽您的聲音！讓我們攜手推動台灣職業排球，共創更精彩的未來！",
+    "contact_email": "winney@TPVL2025.onmicrosoft.com",
+    "address": "台北市中山區松江路129號2樓之五"
+  },
+  "TournamentPage": {
+    "title": "賽務章程",
+    "link": "查看章程"
+  },
+  "RefereePage": {
+    "title_page_1": "裁判招募",
+    "order_desc": "最新到最舊",
+    "order_asc": "最新到最舊",
+    "register": "登記",
+    "scroll_down_tips": "請向下滾動閱讀完整的培訓內容",
+    "next": "下一步",
+    "back": "返回",
+    "cost_breakdown": "詳情",
+    "registration_fee": "報名費",
+    "name": "姓名",
+    "date_of_birth": "生日",
+    "contact_phone_numbers": "聯絡電話",
+    "registration_session": "選擇場次",
+    "time": "時間",
+    "payment": "支付",
+    "payment_method": "付款方式",
+    "bank_transfer": "銀行轉帳",
+    "third_party_payment": "第三方支付",
+    "payment_bank_code": "匯款銀行",
+    "payment_account": "國泰世華銀行   帳號",
+    "account_last_digit": "帳戶最後 5 位數",
+    "please_enter_account": "請輸入您的帳戶",
+    "discription_bank_account": "帳戶的最後 5 位數字僅供員工對帳使用，不會用於其他用途。",
+    "discription_third_party": "您目前已選擇使用",
+    "discription_third_party_1": " 支付",
+    "copy_account": "復製帳戶",
+    "cancel_button": "取消",
+    "confirm_button": "確認",
+    "payment_information": "付款信息",
+    "RegisterSuccess": {
+      "title": "報名成功！",
+      "workshop_details": "詳情",
+      "content": "郵件已發送，請檢查您的電子郵件(Winney@tpvl2025.onmicrosoft.com)以查看詳情。若未收到，請點擊重新發送。",
+      "resend": "重新發",
+      "referee": "裁判甄選",
+      "home": "首頁"
+    },
+    "personal_information": "個人資訊",
+    "first_name": "名字",
+    "last_name": "姓氏",
+    "gender": "性別",
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "upload_file": "上傳檔案",
+    "attach_desc1": "請上您的證件照",
+    "attach_desc2": "(檔案大小限2MB以下)",
+    "place_holder": "請輸入",
+    "residential_address": "居住地址",
+    "mailing_address": "聯絡地址",
+    "residential_street": "居住地址",
+    "mailing_street": "聯絡地址",
+    "same_residential_address": "同居住地址",
+    "upload_id_document": "身分證件",
+    "id_card": "身分證字號",
+    "driver_licence": "駕照",
+    "passport": "護照號碼",
+    "id_number": "證件號碼",
+    "issue_date": "簽發日期",
+    "expiration_date": "截止日期",
+    "landline": "電話",
+    "mobile": "手機",
+    "please_enter_your_phone": "請輸入您的電話號碼",
+    "please_enter_your_email": "請輸入您的電子信箱",
+    "current_occupation": "職業資訊",
+    "department": "公司名稱",
+    "please_enter_complete": "請輸入完整名稱",
+    "workplace_address": "公司/學校地址",
+    "position": "任職單位/就讀系所",
+    "job_title": "職稱",
+    "institution": "是否仍在職/學 或 畢業年份",
+    "occupation_description": "對於應屆畢業生，請填寫學校、系所、畢業年份",
+    "referee_license": "裁判執照",
+    "experience_various_competitions": "請加入您參加過的各類杯賽裁判經驗:",
+    "add_new_button": "新增經歷",
+    "cup_competitions_name": "盃賽名稱",
+    "delete_button": "刪除",
+    "upload_certificate": "上傳您的證書(檔案格式bmp/jpg)",
+    "document_certificate": "請上傳您的裁判資格證",
+    "document_certificate_1": "檔案限制為5MB以下，以JPEG或PNG為限",
+    "volleyball_experience": "經歷簡述",
+    "up_500_characters": "最多500字為限",
+    "registration_information_page_title": "報名資訊",
+    "registration_information": "報名場次",
+    "emergency_contact": "緊急聯絡人",
+    "relation": "關係",
+    "agree_allow_description_1": "我同意台灣職業排球聯盟主辦單位將提交的個人資料用於本次招募流程",
+    "agree_allow_description_2": "作為主辦單位辦理本甄選使用",
+    "agree_allow_description_3": "",
+    "have_read": "我已同意並閱讀本次台灣職業排球聯盟排球裁判培訓相關的內容",
+    "submit_button": "提交",
+    "all_fields_required": "所有欄位均為必填項。請提供準確的資訊。",
+    "chinese": "中文",
+    "english": "英文",
+    "institution_yes_no": "是/否",
+    "dropdown_label": "請選擇裁判等級",
+    "grade_a": "Ａ級",
+    "grade_b": "Ｂ級",
+    "grade_c": "Ｃ級",
+    "experience": "經歷 ",
+    "en_roll": "報名",
+    "information_chinese_1": "提醒：通過第一階段合格者，仍須通過第二、三階段培訓後，才可獲聯盟專職裁判之資格（詳見上一頁）",
+    "information_chinese_2": "第二階段自114年2月28日至3月1、2日(五-日)計3天24小時",
+    "information_chinese_3": "第三階段自114年4月10、11、12、13日(四-日)計4天32小時 ",
+    "spouse": "夫妻",
+    "parents": "父母",
+    "siblings": "兄弟姐妹",
+    "relatives": "親戚",
+    "friends": "朋友",
+    "others": "其他",
+    "login_or": "或是",
+    "placeholder_emergencty_contact": "請填寫您的緊急聯絡人",
+    "account_last_digit_error": "請輸入帳戶後5位數字",
+    "upload_certificate_photo_error": "上傳證書圖片失敗",
+    "upload_portrait_photo_error": "上傳肖像圖片失敗",
+    "first_name_required": "名字為必填項",
+    "last_name_required": "姓氏為必填項",
+    "birthdate_required": "出生日期為必填項",
+    "portrait_photo_required": "肖像照片為必填項",
+    "residential_street_required": "居住地址為必填項",
+    "mailing_street_required": "聯絡地址為必填項",
+    "id_number_required": "證件號碼為必填項",
+    "phone_number_required": "電話號碼為必填項",
+    "email_required": "電子郵件為必填項",
+    "department_required": "公司/目前就讀學校為必填項",
+    "workplace_address_required": "公司/學校地址為必填項",
+    "job_title_required": "職位名稱為必填項",
+    "institution_required": "是否仍在職/學 或 畢業年份為必填項",
+    "cup_competitions_name_required": "盃賽名稱為必填項",
+    "Grade": {
+      "grade_required": "等級為必填項",
+      "grade_select": "請選擇級別"
+    },
+    "certificate_required": "證書為必填項",
+    "volleyball_experience_required": "需要排球經驗",
+    "volleyball_experience_max_length": "排球經歷太久",
+    "Emergency": {
+      "email_required": "緊急聯絡人電子郵件為必填項",
+      "phone_number_required": "緊急聯絡人電話為必填項"
+    },
+    "phone_number_invalid": "電話號碼無效",
+    "email_invalid": "電子郵件地址無效",
+    "select_two_boxes": "請在繼續之前選擇兩個複選框.",
+    "birthdate_invalid": "出生日期無效",
+    "city": "台北市",
+    "district": "信義區",
+    "city_required": "城市為必填項",
+    "district_required": "區域為必填項",
+    "mailing_city_required": "城市為必填項",
+    "mailing_district_required": "區域為必填項",
+    "email_address": "電子郵件",
+    "company_address": "公司地址",
+    "referee_qualification_certificate": "裁判資格證",
+    "emer_contact_label_name": "姓名",
+    "note": {
+      "label": "注意事項",
+      "note_1": "1. 請以銀行轉帳/匯款方式完成本次培訓費用支付，聯盟會以帳號後五碼進行核對，請務必填寫正確。若有任何疑問，請聯繫相關單位確認付款資訊.",
+      "note_2": "2. 提醒您，請於報名截止日前(2025/04/30)完成報名費繳納，逾期不再受理."
+    }
+  },
+  "SignUp": {
+    "title": "註冊",
+    "Introduction": {
+      "title": "會員協議閱讀",
+      "description": "您需要同意會員協議，請閱讀下方的服務條款和隱私權政策。",
+      "confirm_agreement": "確認同意並按下「下一步」按鈕。",
+      "content_condition_1": "服務條款 <br> 一、認知與接受條款 <br> 「P. LEAGUE+」係依據本服務條款提供服務 (以下簡稱「本服務」)。當會員完成本服務之會員註冊手續、或開始使用本服務時，即表示已閱讀、瞭解並同意接受本服務條款之所有內容，並完全接受本服務現有與未來衍生的服務項目及內容。本服務有權於任何時間修改或變更本服務條款之內容，修改後的服務條款內容將公佈網站上，本服務將不會個別通知會員，建議會員隨時注意該等修改或變更。會員於任何修改或變更後繼續使用本服務時，視為會員已閱讀、瞭解並同意接受該等修改或變更。若不同意上述的服務條款修訂或更新方式，或不接受本服務條款的其他任一約定，會員應立即停止使用本服務。 <br> 若會員為未滿二十歲之未成年人，應於會員的家長（或監護人）閱讀、瞭解並同意本約定書之所有內容及其後修改變更後，方得註冊為會員、使用或繼續使用本服務。當會員使用或繼續使用本服務時，即推定會員的家長（或監護人）已閱讀、瞭解並同意接受本約定書之所有內容及其後修改變更。 <br> 會員及本服務雙方同意使用本服務之所有內容包括意思表示等，以電子文件作為表示方式。 <br> 為了確保會員之個人資料、隱私及消費者權益之保護，於交易過程中將使用會員之個人資料。 <br> 二、會員的註冊義務 <br> 依本服務註冊表之提示提供會員本人正確、最新的資料，且不得以第三人之名義註冊為會員。每位會員僅能註冊登錄一個帳號，不可重覆註冊登錄。 <br> 即時維持並更新會員個人資料，確保其正確性，以獲取最佳之服務。 <br> 若會員提供任何錯誤或不實的資料、或未按指示提供資料、或欠缺必要之資料、或有重覆註冊帳號等情事時，本服務有權不經事先通知，逕行暫停或終止會員的帳號，並拒絕會員使用本服務。 <br> 三、本服務隱私權政策關於會員的註冊以及其他特定資料依本服務隱私權政策」受到保護與規範。 <br> 四、會員帳號、密碼及安全 <br> 完成本服務的登記程序之後，會員將取得一個特定之密碼及會員帳號，維持密碼及帳號之機密安全，是會員的責任。 <br> 任何依照規定方法輸入會員帳號及密碼與登入資料一致時，無論是否由本人親自輸入，均將推定為會員本人所使用，利用該密碼及帳號所進行的一切行動，會員本人應負完全責任。 <br> 會員同意以下事項： <br> 會員的密碼或帳號遭到盜用或有其他任何安全問題發生時，會員將立即通知本服務",
+      "content_condition_2": "<br> 每次連線完畢，均結束會員的帳號使用。 <br> 會員的帳號、密碼及會員權益均僅供會員個人使用及享有，不得轉借、轉讓他人或與他人合用。 <br> 帳號及密碼遭盜用、不當使用或其他本服務無法辯識是否為本人親自使用之情況時，對此所致之損害，除證明係因可歸責於本服務之事由所致，本服務將不負任何責任。 <br> 本服務若知悉會員之帳號密碼確係遭他人冒用時，將立即暫停該帳號之使用(含該帳號所生交易之處理)。 <br> 五、兒童及青少年之保護為確保兒童及青少年使用網路的安全，並避免隱私權受到侵犯，家長（或監護人）應盡到下列義務： 未滿十二歲之兒童使用本服務時時，應全程在旁陪伴，十二歲以上未滿十八歲之青少年使用本服務前亦應斟酌是否給予同意。 <br> 六、使用者的守法義務及承諾會員承諾絕不為任何非法目的或以任何非法方式使用本服務，並承諾遵守中華民國相關法規及一切使用網際網路之國際慣例。會員若係中華民國以外之使用者，並同意遵守所屬國家或地域之法令。會員同意並保證不得利用本服務從事侵害他人權益或違法之行為，包括但不限於： <br> 公布或傳送任何誹謗、侮辱、具威脅性、攻擊性、不雅、猥褻、不實、違反公共秩序或善良風俗或其他不法之文字、圖片或任何形式的檔案。 <br> 侵害或毀損本服務或他人名譽、隱私權、營業秘密、商標權、著作權、專利權、其他智慧財產權及其他權利 <br> 違反依法律或契約所應負之保密義務 <br> 冒用他人名義使用本服務 <br> 傳輸或散佈電腦病毒 <br> 從事未經本服務事前授權的商業行為 <br> 刊載、傳輸、發送垃圾郵件、連鎖信、違法或未經本服務許可之多層次傳銷訊息及廣告等；或儲存任何侵害他人智慧財產權或違反法令之資料 <br> 對本服務其他用戶或第三人產生困擾、不悅或違反一般網路禮節致生反感之行為 <br> 其他不符本服務所提供的使用目的之行為或本服務有正當理由認為不適當之行為 <br> 七、服務內容之變更與電子報及EDM發送 <br> 本服務均得視業務需要及實際情形，增減、變更或終止相關服務的項目或內容，且無需個別通知會員。 <br> 會員同意本服務得依實際執行情形，增加、修改或終止相關活動，並選擇最適方式告知會員。 <br> 會員同意本服務得不定期發送電子報或商品訊息(EDM)至會員所登錄的電子信箱帳號。當會員收到訊息後表示拒絕接受行銷時，本服務將停止繼續發送行銷訊息。 <br> 八、服務之停止、中斷本服務將依一般合理之技術及方式，維持系統及服務之正常運作。但於以下各項情況時，本服務有權可以停止、中斷提供本服務： <br> 本服務網站電子通信設備進行必要之保養及施工時 <br> 發生突發性之電子通信設備故障時 <br> 本服務網站申請之電子通信服務被停止，無法提供服務時 <br> 由於天災等不可抗力之因素或其他不可歸責於本服務致使本服務網站無法提供服務時 <br> 九、交易行為",
+      "content_condition_3": "<br> 會員使用本服務進行交易時，應依據本服務所提供之確認商品數量及價格機制進行。 <br> 會員同意使用本服務訂購產品時，於本服務通知確認交易成立前，本服務仍保有不接受訂單或取消出貨之權利。會員向本服務發出訂購通知後，系統將自動發出接受通知，但此通知並非訂單確認通知，關於交易成立與否本服務將另行告知。若因訂單內容之標的商品或服務，其交易條件(包括但不限於規格、內容說明、圖片、)有誤時，本服務仍得於下單後二工作日內拒絕該筆訂單。 <br> 會員若於使用本服務訂購產品後倘任意退換貨、取消訂單、或有任何本服務認為不適當而造成本服務作業上之困擾或損害之行為，本服務將可視情況採取拒絕交易、暫停取消7-11或客樂得配送付款方式，或永久取消會員資格辦理。若會員訂購之產品若屬於以下情形：（１）預購類商品（２）商品頁顯示無庫存（３）須向供應商調貨（４）轉由廠商出貨，因商品交易特性之故，倘商品缺絕、或廠商因故無法順利供貨導致訂單無法成立時，本服務將以最適方式(以電子郵件為主，再輔以電話、郵遞或傳真等)告知。 <br> 會員使用本服務進行交易時，得依照消費者保護法之規定行使權利。因會員之交易行為而對本服務條款產生疑義時，應為有利於消費者之解釋。 <br>  <br> 十、責任之限制與排除 <br> 本服務所提供之各項功能，均依該功能當時之現況提供使用，本服務對於其效能、速度、完整性、可靠性、安全性、正確性等，皆不負擔任何明示或默示之擔保責任。 <br> 本服務並不保證本服務之網頁、伺服器、網域等所傳送的電子郵件或其內容不會含有電腦病毒等有害物；亦不保證郵件、檔案或資料之傳輸儲存均正確無誤不會斷線和出錯等，因各該郵件、檔案或資料傳送或儲存失敗、遺失或錯誤等所致之損害，本服務不負賠償責任。 <br> 十一、智慧財產權的保護 <br> 本服務所使用之軟體或程式、網站上所有內容，包括但不限於著作、圖片、檔案、資訊、資料、網站架構、網站畫面的安排、網頁設計，均由本服務或其他權利人依法擁有其智慧財產權，包括但不限於商標權、專利權、著作權、營業秘密與專有技術等。任何人不得逕自使用、修改、重製、公開播送、改作、散布、發行、公開發表、進行還原工程、解編或反向組譯。若會員欲引用或轉載前述軟體、程式或網站內容，必須依法取得本服務或其他權利人的事前書面同意。尊重智慧財產權是會員應盡的義務，如有違反，會員應向本服務相關權利所有權人負損害賠償責任（包括但不限於訴訟費用及律師費用等）。 <br> 在尊重他人智慧財產權之原則下，會員同意在使用本服務時，不作侵害他人智慧財產權之行為。 ",
+      "content_condition_4": "<br> 若會員有涉及侵權之情事，本服務可暫停全部或部份之服務，或逕自以取消會員帳號之方式處理。 <br> 若有發現智慧財產權遭侵害之情事，請將所遭侵權之情形及聯絡方式，並附具真實陳述及擁有合法智慧財產權之聲明，以下列方式聯絡本服務： 以電子郵件(E-mail)寄送至： law@pleagueofficial.com(請注意！此為限定用途之信箱，非關侵權事項通知之信件寄送至此將不獲受理，本服務會員有任何疑問請至客服中心詢問。) <br> 十二、會員對本服務之授權對於會員上載、傳送、輸入或提供之資料，會員同意本服務網站得於合理之範圍內蒐集、處理、保存、傳遞及使用該等資料，以提供使用者其他資訊或服務、或作成會員統計資料、或進行關於網路行為之調查或研究，或為任何之合法使用。 若會員無合法權利得授權他人使用、修改、重製、公開播送、改作、散布、發行、公開發表某資料，並將前述權利轉授權第三人，請勿擅自將該資料上載、傳送、輸入或提供至本服務。任何資料一經會員上載、傳送、輸入或提供至本服務時，視為會員已允許本服務無條件使用、修改、重製、公開播送、改作、散布、發行、公開發表該等資料，並得將前述權利轉授權他人，會員對此絕無異議。會員並應保證本服務使用、修改、重製、公開播送、改作、散布、發行、公開發表、轉授權該等資料，不致侵害任何第三人之智慧財產權，否則應對本服務負損害賠償責任（包括但不限於訴訟費用及律師費用等）。 <br> 十三、特別授權事項因使用本服務所提供之網路交易或活動，可能須透過宅配或貨運業者始能完成貨品(或贈品等)之配送或取回，因此，會員同意並授權本服務得視該次網路交易或活動之需求及目的，將由會員所提供且為配送所必要之個人資料(如收件人姓名、配送地址、連絡電話等)，提供予宅配貨運業者及相關配合之廠商，以利完成該次貨品(或贈品等)之配送、取回。 <br> 十四、拒絕或終止會員的使用會員同意本服務得基於維護交易安全之考量，因任何理由，包含但不限於缺乏使用，或違反本服務條款的明文規定及精神，終止會員的密碼、帳號（或其任何部分）或本服務（或其任何部分）之使用，或將本服務內任何「會員內容」加以移除並刪除。此外，會員同意若本服務（或其任何部分）之使用被終止，本服務對會員或任何第三人均不承擔責任。 <br> 十五、準據法與管轄法院本服務條款之解釋與適用，以及與本服務條款有關或會員與本服務間因交易行為而產生之爭議或糾紛，應依照中華民國法律予以處理，並以台灣台北地方法院為第一審管轄法院。",
+      "content_condition_5": "<br> 隱私權政策 <br> 「P. LEAGUE+」重視隱私權保障且遵循個人資料保護法之規定，為讓您能夠安心的使用本網站及各項服務與資訊（以下簡稱本網站），特此向您說明本網站的隱私權保護政策，以保障您的權益，請詳閱下列內容： <br> 一、隱私權保護政策的適用範圍 <br> 隱私權保護政策內容，僅限於本網站如何處理在您使用服務時收集到的個人識別資料，請留意，本隱私權保護政策不適用於本網站以外的相關連結網站，也不適用於非本網站所委託或參與管理的人員。 <br> 二、誰在蒐集您的個人資料 <br> 本網站之消費者個人資P. LEAGUE+(以下簡稱本公司)所蒐集、處理及利用。 <br> 三、我們為什麼蒐集您的個人資料（蒐集目的） <br> （一）      行銷（包含金控共同行銷業務） <br> （二）      信用卡、現金卡、轉帳卡或電子票證業務 <br> （三）      契約、類似契約或其他法律關係事務 <br> （四）      訂位、住宿登記與購票業務 <br> （五）      消費者、客戶管理與服務 <br> （六）      商業與技術資訊 <br> （七）      採購與供應管理 <br> （八）      會計與相關服務 <br> （九）      資（通）訊服務 <br> （十）      資（通）訊與資料庫管理 <br> （十一）  資通安全與管理 <br> （十二）  網路購物及其他電子商務服務 <br> （十三）  調查、統計與研究分析 <br> （十四）  除上述項目外，其他符合本網站營業登記項目或章程所定得合法經營之業務目的者。 <br> 四、我們蒐集您的哪些個人資料 <br> 帳務資訊：包含您的姓名、身分證字號、電話號碼、行動電話、電子郵件信箱、通訊及戶籍地址，以及其他與您的帳號相關的個人資料。 <br> 本網站使用資訊：包含您如何使用本網站服務以及本公司所提供之相關金流、物流服務之資訊，及您使用本網頁所瀏覽之商品頁面資訊，例如瀏覽網址、時間、商品種類、消費模式、使用情形等。 <br> 位置資訊：指您使用本網站所連結網路的地理位置資訊。",
+      "content_condition_6": "<br> 其他服務資訊：如您已經或將要成為本公司其他服務的客戶或會員，我們可能會將您的個人資料與其他服務之資料串接整併，以便我們對您更加瞭解，並提供更優化、貼切的服務。 <br> 其他資訊：除上述類別外，尚包含其他您使用本公司服務時所產生的資料，包括但不限於您於本網站資料欄位或相關申請書、同意書或契約文件等填寫之資訊內容。 <br> 五、我們如何利用個人資料 <br> 本網站所取得的個人資料，都僅供於本網頁服務範圍內使用，除非另外事先說明、或依照相關法律規定，否則不會將資料提供給第三人、或移作其他目的使用。 <br> 當您造訪本網站或使用本網站所提供之功能服務時，我們將視該服務功能性質，請您提供必要的個人資料，並在該特定目的範圍內處理及利用您的個人資料；非經您書面同意，本網站不會將個人資料用於其他用途。 <br> 於一般瀏覽時，系統會自行記錄相關行徑，包括您使用連線設備的IP位址、使用時間記錄等，做為我們增進網站服務的參考依據，此記錄為內部應用，決不對外公佈。",
+      "content_condition_7": "<br> 為提供精確的服務，我們會將收集的問卷調查內容進行統計與分析，分析結果之統計數據或說明文字呈現，除供內部研究外，我們會視需要公佈統計數據及說明文字，但不涉及特定個人之資料。 <br> 本網站絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。前項但書之情形包括不限於： <br> 經由您書面同意。 <br> 法律明文規定。 <br> 為免除您生命、身體、自由或財產上之危險。 <br> 與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集者依其揭露方式無從識別特定之當事人。 <br> 當您在本網站的行為，違反服務條款或可能損害或妨礙網站與其他使用者權益或導致任何人遭受損害時，經網站管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。 <br> 有利於您的權益。 <br> 本網站委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。 <br> 六、我們如何進行隱私權保障 <br> 保護顧客的個人隱私是「P. LEAGUE+」重要的經營理念，在未經顧客同意之下，我們絕不會將顧客的個人資料提供予任何與本公司服務無關之第三人。",
+      "content_condition_8": "<br> 本網站主機均設有防火牆、防毒系統等相關的各項資訊安全設備及必要的安全防護措施，加以保護網站及您的個人資料採用嚴格的保護措施，只由經過授權的人員才能接觸您的個人資料，相關處理人員皆簽有保密合約，如有違反保密義務者，將會受到相關的法律處分。 <br> 如因業務需要有必要委託其他單位提供服務時，本網站亦會嚴格要求其遵守保密義務，並且採取必要檢查程序以確定其將確實遵守。 <br> 為保障顧客的隱私及安全，本網站盡力以合理之技術及程序，保障所有個人資料之安全。 <br> 為了便利顧客使用，本網站會使用cookie技術，以便於提供顧客所需要的服務；cookie是網站伺服器用來和會員瀏覽器進行溝通的一種技術，它可能在會員的電腦中隨機儲存字串，用以辨識區別使用者。 <br> 七、網站對外的相關連結之免責聲明 <br> 本網站內提供其他網站的網路連結，您也可經由本網站所提供的連結，點選進入其他網站。請留意，該連結網站不適用本網站的隱私權保護政策，您必須參考該連結網站中的隱私權保護政策。 <br> 八、您有哪些權利可以行使",
+      "content_condition_9": "<br> （一） 您所享有之權利，包含：查詢或請求閱覽、請求製給複製本、請求補充或更正資料、請求停止蒐集、處理或利用及請求刪除。 <br> （二） 上述權利行使方式：請您利用電子郵件方式與本網站管理人聯絡，行使相關權利。 <br> 九、您若不提供個人資料的影響 <br> 您有自由選擇是否提供個人資料之權利，但若不提供時，您將不能使用本網站服務，亦無從使本公司履行對您的契約相關權利或義務。 <br> 十、隱私權保護政策之修正 <br> 隨著市場環境的改變本網站隱私權保護政策將因應需求隨時進行修正，修正後的條款將刊登於網站上。會員如果對於「P. LEAGUE+」網站隱私權聲明、或與個人資料有關之相關事項有任何疑問，可以利用電子郵件來信詢問",
+      "back_button": "返回",
+      "next_button": "下一步"
+    },
+    "Page1": {
+      "title": "會員資料",
+      "account": "帳號 (Email)",
+      "hint_account": "請使用正確的Email ",
+      "password": "密碼",
+      "hint_password": "請輸入密碼",
+      "confirm_password": "確認密碼",
+      "hint_confirm_password": "請再次輸入密碼",
+      "precautions": "注意事項",
+      "precautions_content1": "密碼必須為至少 8 個字元的字串。",
+      "precautions_content2": "請使用包含數字、大寫與小寫字母，以及符號（例如：# % $ @...）的密碼字串。",
+      "precautions_content3": "避免使用重複、過於簡單、容易猜測的字母或數字, 或與帳號相同的密碼 (例如: aaa、abc、123...）。",
+      "precautions_content4": "避免使用他人容易取得的個人資訊作為密碼（例如：英文名字、生日或電話號碼等）。",
+      "precautions_content5": "避免使用字典中常見的單字或機構名稱的縮寫作為密碼 (例如: car、CYUT...等）。"
+    },
+    "Page2": {
+      "first_name": "名字",
+      "hint_first_name": "請輸入名字",
+      "last_name": "姓氏",
+      "hint_last_name": "請輸入姓氏",
+      "gender": "性別",
+      "gender_hint": "選擇您的性別",
+      "male": "男",
+      "female": "女",
+      "birth": "生日",
+      "hint_birth": "請選擇",
+      "title": "信箱驗證",
+      "description": "請輸入電子郵件以進行驗證",
+      "confirm_agreement": "您輸入的電子信箱將作為未來登入的帳號",
+      "send_verification_code": "發送驗證碼",
+      "120_seconds": "(120秒)",
+      "verification_code": "驗證碼",
+      "hint_verification_code": "請輸入驗證碼",
+      "didnt_receive_verification_code": "沒有收到驗證碼?",
+      "verify_code_failed": "驗證碼失敗"
+    },
+    "Page3": {
+      "title": "會員資料確認",
+      "sub_title": "基本資料",
+      "account": "帳號(Email)",
+      "sex": "性別",
+      "password": "密碼",
+      "birth": "生日",
+      "name": "姓名",
+      "email": "電子郵件",
+      "re_edit": "重新編輯",
+      "confirm_send": "確認送出"
+    },
+    "Page4": {
+      "welcome": "註冊成功",
+      "content1": "恭喜您成功註冊 TPVL 會員！您將第一時間獲得最新賽事資訊、精彩活動消息，還有會員專屬福利等著您!",
+      "content2": "立即關注 TPVL, 和我們一同為喜愛的球隊與球員加油吧!",
+      "content3": "如果您沒有收到信件，可能被誤分類到垃圾郵件，請務必檢查。"
+    },
+    "FailedPage": {
+      "title": "無法建立帳戶",
+      "btn_retry": "重試"
+    },
+    "successful_toast": "成功重新發送電子郵件",
+    "verify_now": "立即驗證!",
+    "btn_back": "上一頁",
+    "btn_next": "下一步",
+    "btn_confirm": "確認",
+    "btn_cancel": "取消",
+    "btn_goto_login": "登入"
+  },
+  "ForgotPassword": {
+    "title": "忘記密碼",
+    "content": "電子郵件發送失敗",
+    "content_1": "帳號不存在",
+    "MainPage": {
+      "email": "Email",
+      "content": "輸入完畢後點選「寄送新密碼設定連結」",
+      "btn_send": "寄送連結"
+    },
+    "SuccessPage": {
+      "content": "重設密碼連結已發送至 "
+    },
+    "FailedPage": {
+      "title": "失敗",
+      "invalid_password": "密碼錯誤",
+      "email_not_register": "郵箱尚未註冊",
+      "email_not_verify": "郵箱尚未驗證"
+    },
+    "btn_ok": "確認"
+  },
+  "ResetPassword": {
+    "title": "重置密码",
+    "MainPage": {
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "btn_reset": "重置密码"
+    },
+    "SuccessPage": {
+      "content": "密码重置成功。",
+      "loginPrompt": "您可以前往 ",
+      "login": " 登录 ",
+      "loginPrompt2": " 使用您的新密码。"
+    },
+    "FailedPage": {
+      "title": "密码重置失败"
+    },
+    "btn_ok": "确定"
+  },
+  "ProfileInformation": {
+    "title": "個人資訊"
+  },
+  "AccountSettingPage": {
+    "title": "帳戶設定",
+    "name": "姓名",
+    "hint_name": "請添加您的姓名"
+  },
+  "VideoPage": {
+    "title": "精彩影音",
+    "new_old": "從最新到最舊",
+    "old_new": "從最舊到最新"
+  },
+  "PhotoPage": {
+    "title": "照片圖輯",
+    "new_old": "從最新到最舊",
+    "old_new": "從最舊到最新"
+  },
+  "NewsPage": {
+    "title": "新聞總覽",
+    "new_old": "從最新到最舊",
+    "old_new": "從最舊到最新"
+  },
+  "MatchesList": {
+    "live": "居住",
+    "upcoming": "即將來臨",
+    "final": "最終的",
+    "schedule": "比賽日程",
+    "week": "星期",
+    "no_match": "本週沒有安排比賽."
+  },
+  "PlayerProfile": {
+    "title": "球員個人資料",
+    "careerStats": "生涯數據",
+    "attackPoints": "攻擊得分",
+    "blockPoints": "攔網得分",
+    "servePoints": "發球得分",
+    "passes": "接發",
+    "defenses": "防守",
+    "sets": "舉球",
+    "totalPoints": "總得分",
+    "squad": "隊伍",
+    "position": "位置",
+    "age": "年齡",
+    "dob": "生日",
+    "school": "學校",
+    "experience": "經歷",
+    "actionLabel": {
+      "attack": "攻擊次數",
+      "block": "攔網次數",
+      "serve": "發球次數",
+      "defense": "防守次數",
+      "pass": "傳球次數",
+      "set": "舉球次數"
+    },
+    "totalScoreLabel": {
+      "attack": "攻擊得分總計",
+      "block": "攔網得分總計",
+      "serve": "發球得分總計",
+      "defense": "防守救球總計",
+      "pass": "接發球到位總計",
+      "set": "舉球到位總計"
+    },
+    "timesUnit": "次",
+    "successRateLabel": "得分率",
+    "pointsUnit": "分",
+    "squadPlaceHolder": "全部隊伍"
+  },
+  "Filters": {
+    "season": "所有賽季",
+    "matchType": "所有比賽",
+    "teamType": "所有隊伍",
+    "attackPoints": "攻擊得分",
+    "allMatchTypes": "所有比賽",
+    "allAttackPoints": "所有攻擊得分",
+    "allTeams": "所有隊伍"
+  },
+  "Schedule": {
+    "CompetitionData": {
+      "team": "球隊",
+      "datasheet": "數據資料(P2)",
+      "set_1": "第一局",
+      "set_2": "第二局",
+      "set_3": "第三局",
+      "set_4": "第四局",
+      "set_5": "第五局",
+      "accumulated": "累計得分",
+      "total_ratio": "總比數"
+    },
+    "PlayerData": {
+      "player": "球員",
+      "position": "位置",
+      "attack_points": "攻擊得分",
+      "block_points": "攔網得分",
+      "serve_points": "發球得分",
+      "reception": "接發",
+      "dig": "防守",
+      "set": "舉球",
+      "total": "總得分",
+      "summary": "全隊合計"
+    },
+    "allMonths": "所有月份",
+    "allYears": "所有年份",
+    "allTeams": "所有隊伍",
+    "year": "年",
+    "month": "月",
+    "all": "全部",
+    "newest": "由新到舊",
+    "oldest": "由舊到新",
+    "future": "未來賽事",
+    "result": " 賽事總覽",
+    "home": "主隊",
+    "away": "客隊",
+    "date": {
+      "Monday": "一",
+      "Tuesday": "二",
+      "Wednesday": "三",
+      "Thursday": "四",
+      "Friday": "五",
+      "Saturday": "Sat",
+      "Sunday": "日"
+    },
+    "buy_ticket": "前往購票",
+    "review": "回顧",
+    "record": "紀錄"
+  },
+  "Record": {
+    "record": "球隊戰績",
+    "see_more": "更多戰績",
+    "team_ranking": "球隊排名",
+    "battle_ranking": "戰績排名"
+  },
+  "TeamRanking": {
+    "ranking": "排行",
+    "team": "球隊",
+    "match": "出場數",
+    "matches_won": "勝場數",
+    "matches_lost": "敗場數",
+    "win_rate": "勝率",
+    "lose_rate": "負率",
+    "points": "積分",
+    "score_3_0": "3:0",
+    "score_3_1": "3:1",
+    "score_3_2": "3:2",
+    "score_0_3": "0:3",
+    "score_1_3": "1:3",
+    "score_2_3": "2:3",
+    "sets_won": "勝局",
+    "sets_lost": "負局",
+    "set_rate": "勝局率",
+    "points_scored": "得分",
+    "points_conceded": "失分",
+    "points_ratio": "得失分率",
+    "games_completed_rate": "已戰數",
+    "HomePage": {
+      "match": "已賽",
+      "matches_won": "勝場",
+      "matches_lost": "敗場",
+      "sets_lost": "敗局"
+    }
+  },
+  "RefereeIntroduction": {
+    "title": "裁判介紹",
+    "CHIEF_REFEREE": "裁判長",
+    "CONSULTANT": "顧問",
+    "UMPIRE": "裁判"
+  },
+  "TeamPage": {
+    "title": "聯盟隊伍",
+    "learn_more": "了解更多",
+    "management_team": "經營團隊",
+    "coaching_staff": "教練團",
+    "player": "球員",
+    "position":{
+      "wing_spiker": "主攻手",
+      "outside_hitter": "外側攻擊手",
+      "opposite_hitter": "副攻手",
+      "middle_blocker": "中間攔網手",
+      "setter": "二傳手",
+      "libero": "自由人",
+      "defensive_specialists": "防守專家",
+      "serving_specialist": "發球專家"
+    },
+    "role":{
+      "head_coach": "總教練",
+      "assistant_coach": "助理教練",
+      "trainer": "訓練師",
+      "chairman": "董事長",
+      "coach": "教練",
+      "manager": "經理",
+      "leader": "領隊",
+      "athletic_trainer": "運動訓練師",
+      "general_manager": "總經理"
+    }
+  },
+  "PlayerRankingPage": {
+    "title": "綜合排行榜",
+    "position":{
+      "position": "位置",
+      "outside_hitter": "主攻",
+      "opposite_hitter": "對角",
+      "middle_blocker": "攔中",
+      "setter": "舉球",
+      "libero": "自由人"
+    },
+    "select_box": {
+      "select_squad_placeholder": "选择球队",
+      "select_event_placeholder": "选择赛事",
+      "title_box": {
+        "outside_hitter": "邊線攻擊",
+        "opposite_hitter": "對角攻擊",
+        "middle_blocker": "中間攔網",
+        "setter": "舉球",
+        "libero": "自由球員",
+        "top_scorer": "得分王"
+      }
+    },
+    "points": "分",
+    "number_of_times": "次",
+    "player_stats": {
+      "rank": "排名",
+      "fullname": "姓名",
+      "jersey_number": "背號",
+      "squad": "球隊",
+      "matches_played": "出場數",
+      "rounds_played": "出場局數",
+      "score": "得分",
+      "success_rate": "成功率",
+      "total": "總",
+      "total_number": "總數",
+      "success_count": "成功數",
+      "success": "成功",
+      "total_points": "總得分",
+      "spikes": "攻擊數",
+      "completed_spikes": "攻擊得分",
+      "serves": "發球數",
+      "completed_serves": "發球得分",
+      "blocks": "攔網數",
+      "completed_blocks": "攔網得分",
+      "defenses": "接扣球數",
+      "passes": "接發球數",
+      "sets": "舉球數",
+      "average_points_per_set": "場平均得分數",
+      "average_points_per_game": "局平均得分數"
+    }
+  }
+}

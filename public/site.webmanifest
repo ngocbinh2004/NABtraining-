@@ -1,0 +1,20 @@
+{
+  "name": "Taiwan Professional Volleyball League",
+  "short_name": "TPVL",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "https://vlw-s3-qa1.s3.ap-southeast-2.amazonaws.com/wayli_icon_white.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://vlw-s3-qa1.s3.ap-southeast-2.amazonaws.com/wayli_icon_white.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#181818",
+  "background_color": "#181818",
+  "display": "standalone"
+}
