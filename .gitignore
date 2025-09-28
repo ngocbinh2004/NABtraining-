@@ -6,3 +6,7 @@ node_modules/
 node_modules/
 .env
 *.log
+.next/
+node_modules/
+.env
+*.log
