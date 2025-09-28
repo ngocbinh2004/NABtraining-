@@ -10,3 +10,9 @@ node_modules/
 node_modules/
 .env
 *.log
+.env
+.env.*
+.env.local
+.next/
+node_modules/
+*.log
